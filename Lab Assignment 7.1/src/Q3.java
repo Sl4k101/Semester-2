@@ -31,4 +31,9 @@ public class Q3 {
             System.out.println("Invalid hexadecimal number.");
         }
     }
+
+    public void run() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'run'");
+    }
 }
