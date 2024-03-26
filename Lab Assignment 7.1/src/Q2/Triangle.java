@@ -1,6 +1,5 @@
-import Q2.IllegalTriangleException;
+package Q2;
 
-Lab Assignment 5.1/src/Q1/Triangle.javapackage Q1;
 public class Triangle extends GeometricObject {
     private double side1 = 1.0;
     private double side2 = 1.0;
@@ -9,16 +8,15 @@ public class Triangle extends GeometricObject {
     public Triangle() {
     }
 
- public Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
-    if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
-        throw new IllegalTriangleException();
+    public Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
+        if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1) {
+            throw new IllegalTriangleException();
+        }
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
     }
-    this.side1 = side1;
-    this.side2 = side2;
-    this.side3 = side3;
-}
-
-
+    
     public double getSide1() {
         return side1;
     }
