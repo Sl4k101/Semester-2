@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Q4 {
-
     public static ArrayList<Character> toCharacterArray(String string) {
         ArrayList<Character> array = new ArrayList<>();
         for(int i = 0; i < string.length(); i++) {
