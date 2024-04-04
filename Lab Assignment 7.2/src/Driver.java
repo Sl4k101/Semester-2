@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Driver {
-    public static void  {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("Select the program you want to run:");
