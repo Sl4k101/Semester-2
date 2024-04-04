@@ -1,8 +1,9 @@
+package LabAssignment6_1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Q3 {
-    public void run() {
+    public static void runQ3() {
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();

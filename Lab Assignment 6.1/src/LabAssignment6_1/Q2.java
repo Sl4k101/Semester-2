@@ -1,8 +1,9 @@
+package LabAssignment6_1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Q2 {
-    public void run() {
+    public static void runQ2() {
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
 
@@ -16,7 +17,7 @@ public class Q2 {
         System.out.println("Sorted numbers: " + list);
     }
 
-    public void sort(ArrayList<Integer> list) {
+    public static void sort(ArrayList<Integer> list) {
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = 0; j < list.size() - i - 1; j++) {
                 if (list.get(j) > list.get(j + 1)) {

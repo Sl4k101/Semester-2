@@ -1,8 +1,9 @@
+package LabAssignment6_1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Q1 {
-    public void run() {
+    public static void runQ1() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the array size n: ");
         int n = input.nextInt();

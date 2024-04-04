@@ -1,7 +1,8 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Driver {
-    public static void  {
+    public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("Select the program you want to run:");
@@ -16,13 +17,13 @@ public class Driver {
 
             switch (choice) {
                 case 1:
-                    Q1.runQ1();
+                    BinaryConverter.Q1();
                     break;
                 case 2:
-                    Q2.runQ2();
+                    RandomNumberFileOperation.Q2();
                     break;
                 case 3:
-                    Q3.runQ3();
+                    FileStats.Q3();
                     break;
                 case 4:
                     System.out.println("Exiting...");

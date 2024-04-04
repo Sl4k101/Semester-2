@@ -1,3 +1,4 @@
+package LabAssignment6_1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,7 +11,7 @@ public class Q4 {
         return array;
     }
 
-    public void run() {
+    public static void runQ4() {
         Scanner input = new Scanner(System.in);
         // Get string from user
         System.out.println("Enter a string to convert to a Character array: ");
