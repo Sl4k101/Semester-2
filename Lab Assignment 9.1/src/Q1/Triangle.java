@@ -1,5 +1,7 @@
 package Q1;
 
+import Q2.GeometricObject;
+
 public class  Triangle extends GeometricObject {
 
     private double side1 =1.0;
