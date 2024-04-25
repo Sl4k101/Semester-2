@@ -1,0 +1,3 @@
+interface Calculatable {
+    int getResult();
+}
