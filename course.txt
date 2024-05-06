@@ -1,0 +1,28 @@
+420-202-RE Shahriar Istiaque F252 
+Introduction to Java, Programming and Data Structure 
+Y. Daniel Liang
+SOEN145 Cooper Adam A121
+Core Java 
+Cay Horstmann
+COMP345 Adam Aniston E231
+Microsoft Visual C# Step by Step
+John Sharp
+SOEN123 Maria Wise A231
+The HTML PocketGuid
+Bruce Hyslop
+ENCS121 Pedro Aerenson E121
+Object Oriented Data Structure Using Java
+Nell Dale
+ENCS323 Daniel Dalico D121
+Android Programming Concepts
+Trisch Cornez
+COMP126 Ariel Hershman D238
+Buiding Applicatios with .NET
+Ted Pattison
+EC156 Gabriel Jackson A237
+Economics in One Lesson
+Henry Hazlitt
+
+AC253 Hugo Brown E238
+Financial Accounting
+David Scholtzer

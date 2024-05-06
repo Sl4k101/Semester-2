@@ -12,7 +12,6 @@ public class AuthorBookManager {
         String authorName = scanner.nextLine().trim();
         System.out.print("Enter the title of the book: ");
         String bookTitle = scanner.nextLine().trim();
-        scanner.close();
         
         int authorLineNumber = addAuthorInAlphabeticalOrder(authorName);
         addBookIfNotPresent(bookTitle, authorLineNumber);

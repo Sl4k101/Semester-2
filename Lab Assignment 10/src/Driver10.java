@@ -10,7 +10,6 @@ import Q3.ScoreProcessor;
 
 
 public class Driver10 {
-    
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         int choice;
