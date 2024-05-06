@@ -1,4 +1,4 @@
-class Course {
+public class Course {
     private String courseName;
     private Instructor instructor;
     private TextBook textBook;
@@ -35,11 +35,6 @@ class Course {
 
     @Override
     public String toString() {
-        return "Course{" +
-               "courseName='" + courseName + '\'' +
-               ", instructor=" + instructor +
-               ", textBook=" + textBook +
-               '}';
+        return "Course: " + courseName + "\n" + instructor + "\n" + textBook;
     }
 }
-

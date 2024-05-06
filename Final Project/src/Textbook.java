@@ -1,4 +1,4 @@
-class TextBook {
+public class TextBook {
     private String title;
     private String author;
 
@@ -25,9 +25,6 @@ class TextBook {
 
     @Override
     public String toString() {
-        return "TextBook{" +
-               "title='" + title + '\'' +
-               ", author='" + author + '\'' +
-               '}';
+        return "TextBook: " + title + ", Author: " + author;
     }
 }

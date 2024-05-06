@@ -1,4 +1,4 @@
-class Instructor extends Person {
+public class Instructor extends Person {
     private String officeNumber;
 
     public Instructor(String name, String familyName, String officeNumber) {
@@ -17,10 +17,6 @@ class Instructor extends Person {
 
     @Override
     public String toString() {
-        return "Instructor{" +
-               "name=" + getName() +
-               ", familyName=" + getFamilyName() +
-               ", officeNumber='" + officeNumber + '\'' +
-               '}';
+        return "Instructor: " + getName() + " " + getFamilyName() + ", Office: " + officeNumber;
     }
 }
